@@ -1,14 +1,14 @@
-# Vilkår for bruk — Fyllt
+# Vilkår for bruk — Fylt
 
 *Sist oppdatert: 18. mars 2026*
 
 ## 1. Om tjenesten
 
-Fyllt er en gratis mobilapplikasjon for sammenligning av drivstoffpriser i Norge. Tjenesten lar brukere finne bensinstasjoner i nærheten, sammenligne priser og rapportere oppdaterte priser.
+Fylt er en gratis mobilapplikasjon for sammenligning av drivstoffpriser i Norge. Tjenesten lar brukere finne bensinstasjoner i nærheten, sammenligne priser og rapportere oppdaterte priser.
 
 ## 2. Aksept av vilkår
 
-Ved å laste ned, installere eller bruke Fyllt-appen, godtar du disse vilkårene. Dersom du ikke godtar vilkårene, skal du ikke bruke appen.
+Ved å laste ned, installere eller bruke Fylt-appen, godtar du disse vilkårene. Dersom du ikke godtar vilkårene, skal du ikke bruke appen.
 
 ## 3. Brukerkontoer
 
@@ -54,14 +54,14 @@ Ved å laste ned, installere eller bruke Fyllt-appen, godtar du disse vilkårene
 
 ## 7. Ansvarsfraskrivelse
 
-- Fyllt tilbys «som den er» uten garantier av noe slag.
+- Fylt tilbys «som den er» uten garantier av noe slag.
 - Vi garanterer ikke nøyaktigheten av priser, stasjonsinformasjon eller kartdata.
 - Vi er ikke ansvarlige for eventuelle tap eller skader som følge av bruk av appen.
 - Bruk av prisinformasjonen skjer på eget ansvar.
 
 ## 8. Immaterielle rettigheter
 
-- Fyllt-appen og dens kildekode er beskyttet av opphavsrett.
+- Fylt-appen og dens kildekode er beskyttet av opphavsrett.
 - Merkevarelogoer tilhører sine respektive eiere og brukes kun for identifikasjonsformål.
 - Brukerinnsendt innhold (priser, forslag) kan brukes fritt av tjenesten.
 

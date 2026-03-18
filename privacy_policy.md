@@ -1,10 +1,10 @@
-# Personvernerklæring — Fyllt
+# Personvernerklæring — Fylt
 
 *Sist oppdatert: 18. mars 2026*
 
 ## 1. Behandlingsansvarlig
 
-Fyllt er utviklet og driftet av Younas (privatperson). For spørsmål om personvern, kontakt oss på: [younas171996@gmail.com](mailto:younas171996@gmail.com)
+Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personvern, kontakt oss på: [younas171996@gmail.com](mailto:younas171996@gmail.com)
 
 ## 2. Hvilke data vi samler inn
 

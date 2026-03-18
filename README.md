@@ -3,9 +3,9 @@
 
 
 
-# Fyllt — Finn billigst drivstoff i Norge
+# Fylt — Finn billigst drivstoff i Norge
 
-Fyllt er en gratis mobilapp som hjelper deg med å finne de billigste drivstoffprisene i nærheten. Sammenlign priser, rapporter oppdateringer og spar penger på tanking.
+Fylt er en gratis mobilapp som hjelper deg med å finne de billigste drivstoffprisene i nærheten. Sammenlign priser, rapporter oppdateringer og spar penger på tanking.
 
 ## Funksjoner
 
