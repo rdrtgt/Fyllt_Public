@@ -1,5 +1,7 @@
 
-<img width="1536" height="1024" alt="Promografikk_1" src="https://github.com/user-attachments/assets/8e83f559-a5b0-4671-8916-a1fc94e28112" />
+<img width="1382" height="921" alt="Promografikk_1" src="https://github.com/user-attachments/assets/68c9aa17-dee6-4a81-a802-657d7470e6ed" />
+
+
 
 # Fyllt — Finn billigst drivstoff i Norge
 
