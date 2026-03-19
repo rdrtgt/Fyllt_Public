@@ -7,6 +7,10 @@
 
 Fylt er en gratis mobilapp som hjelper deg med å finne de billigste drivstoffprisene i nærheten. Sammenlign priser, rapporter oppdateringer og spar penger på tanking.
 
+<img width="512" height="768" alt="Promografikk_4" src="https://github.com/user-attachments/assets/65774cec-9a7a-4db4-8191-92737a82018b" />
+
+
+
 ## Funksjoner
 
 - **Finn stasjoner** — Se bensinstasjoner i nærheten sortert etter avstand, pris eller sist oppdatert
