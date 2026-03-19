@@ -1,7 +1,4 @@
 
-<img width="1382" height="921" alt="Promografikk_1" src="https://github.com/user-attachments/assets/68c9aa17-dee6-4a81-a802-657d7470e6ed" />
-
-
 
 # Fylt — Finn billigst drivstoff i Norge
 
