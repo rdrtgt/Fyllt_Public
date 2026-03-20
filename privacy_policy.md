@@ -1,6 +1,6 @@
 # Personvernerklæring — Fylt
 
-*Sist oppdatert: 18. mars 2026*
+*Sist oppdatert: 20. mars 2026*
 
 ## 1. Behandlingsansvarlig
 
@@ -19,7 +19,7 @@ Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personve
 
 | Data | Formål | Rettslig grunnlag |
 |------|--------|-------------------|
-| GPS-posisjon (ved prisrapportering) | Verifisere at du er nær stasjonen (innen 1 km) | Samtykke (GDPR art. 6(1)(a)) |
+| GPS-posisjon (ved prisrapportering) | Verifisere at du er nær stasjonen (innen 10 km) | Samtykke (GDPR art. 6(1)(a)) |
 | GPS-posisjon (ved stasjonssøk) | Finne stasjoner i nærheten | Samtykke (GDPR art. 6(1)(a)) |
 
 **Viktig:** Posisjonen din lagres kun når du aktivt sender inn en prisrapport. Vi sporer ikke posisjonen din i bakgrunnen.
@@ -33,13 +33,17 @@ Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personve
 | Tillitsscore | Anti-spam og kvalitetssikring | Berettiget interesse (GDPR art. 6(1)(f)) |
 | Antall innsendinger | Hastighetsbegrensning og misbruksforebygging | Berettiget interesse (GDPR art. 6(1)(f)) |
 | IP-adresse | Hastighetsbegrensning og sikkerhetslogging | Berettiget interesse (GDPR art. 6(1)(f)) |
+| Teknisk informasjon (appversjon, OS, plattform) | Feilsøking ved tilbakemeldinger | Berettiget interesse (GDPR art. 6(1)(f)) |
 
-### 2.4 Data vi IKKE samler inn
+### 2.4 Automatiserte beslutninger
+
+Vi bruker automatisert vurdering av brukerbidrag for kvalitetssikring (se Vilkår for bruk, § 5). Systemet kan automatisk advare eller suspendere kontoer basert på bidragshistorikk. Du kan kontakte oss for manuell gjennomgang av eventuelle automatiserte beslutninger som påvirker kontoen din (GDPR art. 22).
+
+### 2.5 Data vi IKKE samler inn
 
 - Vi samler ikke inn navn, telefonnummer eller fysisk adresse.
 - Vi bruker ikke sporingsteknologi (cookies, fingeravtrykk) for reklame.
 - Vi selger ikke data til tredjeparter.
-- Vi bruker ikke data til profilering eller automatiserte beslutninger.
 
 ## 3. Databehandlere (tredjeparter)
 
@@ -48,20 +52,22 @@ Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personve
 | Supabase (supabase.com) | Database, autentisering, serverløse funksjoner | EU (Frankfurt) | Ja — Supabase DPA |
 | OpenStreetMap | Kartdata og stasjonsinformasjon | Global | Offentlig data (ODbL) |
 | Nominatim (OSM) | Adresseoppslag (kun server-side) | Global | Ingen persondata sendes |
+| Discord (discord.com) | Videresending av tilbakemeldinger fra brukere | USA | Discord Privacy Policy |
 
 ## 4. Lagring og oppbevaring
 
 ### 4.1 Oppbevaringsperioder
 
 | Datatype | Oppbevaringstid | Begrunnelse |
-|----------|----------------|-------------|
+|----------|-----------------|-------------|
 | Kontoinformasjon | Til kontoen slettes | Nødvendig for tjenesten |
 | Prisrapporter | 12 måneder | Historisk prisdata og trendanalyse |
 | Endringsforslag | 6 måneder etter behandling | Revisjonsspor |
 | Posisjonsdata (fra rapporter) | 12 måneder | Verifisering og misbruksforebygging |
 | Tillitsscore | Til kontoen slettes | Kvalitetssikring |
 | IP-adresser (hastighetsbegrensning) | 24 timer | Misbruksforebygging |
-| Sikkerhetslogger | 12 måneder | Revisjonsspor og sikkerhetsovervåking |
+| IP-adresser (sikkerhetslogger) | 12 måneder | Revisjonsspor og sikkerhetsovervåking |
+| Teknisk informasjon (tilbakemeldinger) | 12 måneder | Feilsøking |
 
 ### 4.2 Automatisk sletting
 
@@ -98,7 +104,7 @@ Tjenesten er ikke rettet mot barn under 13 år. Vi samler ikke bevisst inn data 
 
 ## 8. Internasjonale overføringer
 
-Dine data behandles primært innenfor EU/EØS (Supabase EU-region). Kartdata fra OpenStreetMap er offentlig tilgjengelig globalt. Ingen persondata overføres til land utenfor EU/EØS uten tilstrekkelig beskyttelsesnivå.
+Dine data behandles primært innenfor EU/EØS (Supabase EU-region). Kartdata fra OpenStreetMap er offentlig tilgjengelig globalt. Tilbakemeldinger kan bli videresendt til Discord (USA) — Discord er underlagt EUs standardkontraktsklausuler (SCC). Ingen andre persondata overføres til land utenfor EU/EØS uten tilstrekkelig beskyttelsesnivå.
 
 ## 9. Endringer i personvernerklæringen
 
