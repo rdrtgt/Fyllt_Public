@@ -4,7 +4,7 @@
 
 ## 1. Om tjenesten
 
-Fylt er en gratis mobilapplikasjon for sammenligning av drivstoffpriser i Norge. Tjenesten lar brukere finne bensinstasjoner i nærheten, sammenligne priser og rapportere oppdaterte priser.
+Fylt er en gratis mobilapplikasjon for sammenligning av drivstoffpriser i Norge og Sverige. Tjenesten lar brukere finne bensinstasjoner i nærheten, sammenligne priser og rapportere oppdaterte priser.
 
 ## 2. Aksept av vilkår
 
@@ -19,18 +19,15 @@ Ved å laste ned, installere eller bruke Fylt-appen, godtar du disse vilkårene.
 ## 4. Brukerinnsendt innhold
 
 ### 4.1 Prisrapporter
-
 - Du kan rapportere drivstoffpriser når du befinner deg innenfor 10 km fra en bensinstasjon.
 - Rapporterte priser må være nøyaktige og sannferdige.
 - Manipulering eller innsending av falske priser kan føre til suspensjon av kontoen din.
 
 ### 4.2 Endringsforslag
-
 - Du kan foreslå endringer på stasjonsinformasjon (fasiliteter, navn, adresse osv.).
 - Forslag blir gjennomgått av administratorer eller automatisk godkjent basert på din tillitsscore.
 
 ### 4.3 Begrensninger
-
 - Maks 10 prisrapporter per time.
 - Maks 4 rapporter per stasjon per drivstofftype per minutt.
 - Maks 5 endringsforslag per time.
