@@ -9,14 +9,12 @@ Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personve
 ## 2. Hvilke data vi samler inn
 
 ### 2.1 Kontodata
-
 | Data | Formål | Rettslig grunnlag |
 |------|--------|-------------------|
 | E-postadresse (valgfritt) | Autentisering og kontogjenoppretting | Samtykke (GDPR art. 6(1)(a)) |
 | Anonym bruker-ID | Automatisk opprettet ved første bruk for identifisering uten personlig informasjon | Berettiget interesse (GDPR art. 6(1)(f)) |
 
 ### 2.2 Posisjonsdata
-
 | Data | Formål | Rettslig grunnlag |
 |------|--------|-------------------|
 | GPS-posisjon (ved prisrapportering) | Verifisere at du er nær stasjonen (innen 10 km) | Samtykke (GDPR art. 6(1)(a)) |
@@ -25,7 +23,6 @@ Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personve
 **Viktig:** Posisjonen din lagres kun når du aktivt sender inn en prisrapport. Vi sporer ikke posisjonen din i bakgrunnen.
 
 ### 2.3 Brukeraktivitet
-
 | Data | Formål | Rettslig grunnlag |
 |------|--------|-------------------|
 | Prisrapporter | Oppdatere drivstoffpriser for andre brukere | Berettiget interesse (GDPR art. 6(1)(f)) |
@@ -34,13 +31,12 @@ Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personve
 | Antall innsendinger | Hastighetsbegrensning og misbruksforebygging | Berettiget interesse (GDPR art. 6(1)(f)) |
 | IP-adresse | Hastighetsbegrensning og sikkerhetslogging | Berettiget interesse (GDPR art. 6(1)(f)) |
 | Teknisk informasjon (appversjon, OS, plattform) | Feilsøking ved tilbakemeldinger | Berettiget interesse (GDPR art. 6(1)(f)) |
+| Krasjrapporter og feillogger | Automatisk feilrapportering via Sentry for å forbedre app-stabilitet | Berettiget interesse (GDPR art. 6(1)(f)) |
 
 ### 2.4 Automatiserte beslutninger
-
 Vi bruker automatisert vurdering av brukerbidrag for kvalitetssikring (se Vilkår for bruk, § 5). Systemet kan automatisk advare eller suspendere kontoer basert på bidragshistorikk. Du kan kontakte oss for manuell gjennomgang av eventuelle automatiserte beslutninger som påvirker kontoen din (GDPR art. 22).
 
 ### 2.5 Data vi IKKE samler inn
-
 - Vi samler ikke inn navn, telefonnummer eller fysisk adresse.
 - Vi bruker ikke sporingsteknologi (cookies, fingeravtrykk) for reklame.
 - Vi selger ikke data til tredjeparter.
@@ -50,6 +46,7 @@ Vi bruker automatisert vurdering av brukerbidrag for kvalitetssikring (se Vilkå
 | Tjeneste | Formål | Plassering | Databehandleravtale |
 |----------|--------|------------|---------------------|
 | Supabase (supabase.com) | Database, autentisering, serverløse funksjoner | EU (Frankfurt) | Ja — Supabase DPA |
+| Sentry (sentry.io) | Feilrapportering og krasjovervåking | EU (Tyskland) | Ja — Sentry DPA |
 | OpenStreetMap | Kartdata og stasjonsinformasjon | Global | Offentlig data (ODbL) |
 | Nominatim (OSM) | Adresseoppslag (kun server-side) | Global | Ingen persondata sendes |
 | Discord (discord.com) | Videresending av tilbakemeldinger fra brukere | USA | Discord Privacy Policy |
@@ -57,7 +54,6 @@ Vi bruker automatisert vurdering av brukerbidrag for kvalitetssikring (se Vilkå
 ## 4. Lagring og oppbevaring
 
 ### 4.1 Oppbevaringsperioder
-
 | Datatype | Oppbevaringstid | Begrunnelse |
 |----------|-----------------|-------------|
 | Kontoinformasjon | Til kontoen slettes | Nødvendig for tjenesten |
@@ -70,7 +66,6 @@ Vi bruker automatisert vurdering av brukerbidrag for kvalitetssikring (se Vilkå
 | Teknisk informasjon (tilbakemeldinger) | 12 måneder | Feilsøking |
 
 ### 4.2 Automatisk sletting
-
 - Prisrapporter eldre enn 12 måneder slettes automatisk.
 - Behandlede endringsforslag slettes etter 6 måneder.
 - Inaktive anonyme kontoer slettes etter 24 måneder.
