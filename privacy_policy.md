@@ -1,6 +1,6 @@
 # Personvernerklæring — Fylt
 
-*Sist oppdatert: 20. mars 2026*
+*Sist oppdatert: 23. mars 2026*
 
 ## 1. Behandlingsansvarlig
 
