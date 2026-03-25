@@ -19,8 +19,8 @@ Fylt er en gratis mobilapp som hjelper deg med å finne de billigste drivstoffpr
 
 ## Tilgjengelig på
 
-- Google Play (kommer snart)
-- App Store (kommer snart)
+- Google Play Lanseres 04.04.2026
+- App Store https://apps.apple.com/no/app/fylt/id6760733281
 
 ## Datakilder
 
