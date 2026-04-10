@@ -1,6 +1,6 @@
 # Vilkår for bruk — Fylt
 
-*Sist oppdatert: 20. mars 2026*
+*Sist oppdatert: 10. april 2026*
 
 ## 1. Om tjenesten
 
@@ -39,7 +39,7 @@ Ved å laste ned, installere eller bruke Fylt-appen, godtar du disse vilkårene.
 - Godkjente bidrag øker scoren din (+3 per godkjent bidrag).
 - Avviste bidrag reduserer scoren din (-5 per avvist bidrag).
 - Prisrapporter fra brukere med tillitsscore ≥ 49 som ikke er avvikende, blir automatisk godkjent.
-- Avvikende priser (mer enn 5 NOK forskjell fra gjeldende pris) blir alltid flagget for manuell gjennomgang, uavhengig av tillitsscore.
+- Avvikende priser (mer enn 8 NOK forskjell fra gjeldende pris) blir alltid flagget for manuell gjennomgang, uavhengig av tillitsscore.
 - Prisrapporter fra brukere med tillitsscore under 49 holdes tilbake for manuell gjennomgang av administratorer.
 - Når 5 eller flere brukere rapporterer samme pris (±0,50 NOK) innen 24 timer, bekreftes prisen automatisk.
 

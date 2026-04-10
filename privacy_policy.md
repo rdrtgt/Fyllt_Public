@@ -1,6 +1,6 @@
 # Personvernerklæring — Fylt
 
-*Sist oppdatert: 23. mars 2026*
+*Sist oppdatert: 10. april 2026*
 
 ## 1. Behandlingsansvarlig
 
@@ -13,14 +13,16 @@ Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personve
 |------|--------|-------------------|
 | E-postadresse (valgfritt) | Autentisering og kontogjenoppretting | Samtykke (GDPR art. 6(1)(a)) |
 | Anonym bruker-ID | Automatisk opprettet ved første bruk for identifisering uten personlig informasjon | Berettiget interesse (GDPR art. 6(1)(f)) |
+| Visningsnavn (valgfritt) | Vises på topplisten i stedet for kontokode. Du velger selv hva som vises. | Samtykke (GDPR art. 6(1)(a)) |
 
 ### 2.2 Posisjonsdata
 | Data | Formål | Rettslig grunnlag |
 |------|--------|-------------------|
 | GPS-posisjon (ved prisrapportering) | Verifisere at du er nær stasjonen (innen 10 km) | Samtykke (GDPR art. 6(1)(a)) |
 | GPS-posisjon (ved stasjonssøk) | Finne stasjoner i nærheten | Samtykke (GDPR art. 6(1)(a)) |
+| GPS-posisjon (ved prisvarsel) | Definere søkeområde for prisvarsler du oppretter | Samtykke (GDPR art. 6(1)(a)) |
 
-**Viktig:** Posisjonen din lagres kun når du aktivt sender inn en prisrapport. Vi sporer ikke posisjonen din i bakgrunnen.
+**Viktig:** Posisjonen din lagres kun når du aktivt sender inn en prisrapport eller oppretter et prisvarsel. Vi sporer ikke posisjonen din i bakgrunnen.
 
 ### 2.3 Brukeraktivitet
 | Data | Formål | Rettslig grunnlag |
@@ -32,11 +34,21 @@ Fylt er utviklet og driftet av Younas (privatperson). For spørsmål om personve
 | IP-adresse | Hastighetsbegrensning og sikkerhetslogging | Berettiget interesse (GDPR art. 6(1)(f)) |
 | Teknisk informasjon (appversjon, OS, plattform) | Feilsøking ved tilbakemeldinger | Berettiget interesse (GDPR art. 6(1)(f)) |
 | Krasjrapporter og feillogger | Automatisk feilrapportering via Sentry for å forbedre app-stabilitet | Berettiget interesse (GDPR art. 6(1)(f)) |
+| Favorittstasjoner | Synkronisert til serveren for å sende push-varsler ved prisoppdatering | Samtykke (GDPR art. 6(1)(a)) |
+| Prisvarsler | Drivstofftype, målpris og søkeradius du definerer. Brukes til å sende push-varsler. | Samtykke (GDPR art. 6(1)(a)) |
+| Varselhistorikk | Logg over utløste varsler (tittel, innhold, tidspunkt). Kun synlig for deg. | Berettiget interesse (GDPR art. 6(1)(f)) |
 
-### 2.4 Automatiserte beslutninger
+### 2.4 Push-varsler og enhetsidentifikator
+| Data | Formål | Rettslig grunnlag |
+|------|--------|-------------------|
+| FCM-token (Firebase Cloud Messaging) | En enhetsidentifikator som brukes utelukkende til å levere push-varsler til din enhet. | Samtykke (GDPR art. 6(1)(a)) |
+
+**Om FCM-token:** Tokenet genereres av Google Firebase og identifiserer din enhet for levering av push-varsler. Det roteres periodisk av Google. Vi bruker det **kun** til å sende prisvarsler og favorittoppdateringer — aldri for sporing, analyse eller reklame. Du kan når som helst deaktivere push-varsler i enhetens innstillinger, og tokenet vil da ikke lenger lagres.
+
+### 2.5 Automatiserte beslutninger
 Vi bruker automatisert vurdering av brukerbidrag for kvalitetssikring (se Vilkår for bruk, § 5). Systemet kan automatisk advare eller suspendere kontoer basert på bidragshistorikk. Du kan kontakte oss for manuell gjennomgang av eventuelle automatiserte beslutninger som påvirker kontoen din (GDPR art. 22).
 
-### 2.5 Data vi IKKE samler inn
+### 2.6 Data vi IKKE samler inn
 - Vi samler ikke inn navn, telefonnummer eller fysisk adresse.
 - Vi bruker ikke sporingsteknologi (cookies, fingeravtrykk) for reklame.
 - Vi selger ikke data til tredjeparter.
@@ -49,6 +61,7 @@ Vi bruker automatisert vurdering av brukerbidrag for kvalitetssikring (se Vilkå
 | Sentry (sentry.io) | Feilrapportering og krasjovervåking | EU (Tyskland) | Ja — Sentry DPA |
 | OpenStreetMap | Kartdata og stasjonsinformasjon | Global | Offentlig data (ODbL) |
 | Nominatim (OSM) | Adresseoppslag (kun server-side) | Global | Ingen persondata sendes |
+| Firebase Cloud Messaging (Google) | Levering av push-varsler til enheten | EU/USA | Google Cloud DPA |
 | Discord (discord.com) | Videresending av tilbakemeldinger fra brukere | USA | Discord Privacy Policy |
 
 ## 4. Lagring og oppbevaring
@@ -64,6 +77,11 @@ Vi bruker automatisert vurdering av brukerbidrag for kvalitetssikring (se Vilkå
 | IP-adresser (hastighetsbegrensning) | 24 timer | Misbruksforebygging |
 | IP-adresser (sikkerhetslogger) | 12 måneder | Revisjonsspor og sikkerhetsovervåking |
 | Teknisk informasjon (tilbakemeldinger) | 12 måneder | Feilsøking |
+| FCM-token | Til kontoen slettes eller varsler deaktiveres | Push-varsler |
+| Prisvarsler | Til brukeren sletter varselet | Brukerstyrt |
+| Favorittstasjoner | Til brukeren fjerner favoritten | Brukerstyrt |
+| Varselhistorikk | 6 måneder | Brukerens varseloversikt |
+| Visningsnavn | Til kontoen slettes eller brukeren endrer det | Brukerstyrt |
 
 ### 4.2 Automatisk sletting
 - Prisrapporter eldre enn 12 måneder slettes automatisk.
@@ -99,7 +117,7 @@ Tjenesten er ikke rettet mot barn under 13 år. Vi samler ikke bevisst inn data 
 
 ## 8. Internasjonale overføringer
 
-Dine data behandles primært innenfor EU/EØS (Supabase EU-region). Kartdata fra OpenStreetMap er offentlig tilgjengelig globalt. Tilbakemeldinger kan bli videresendt til Discord (USA) — Discord er underlagt EUs standardkontraktsklausuler (SCC). Ingen andre persondata overføres til land utenfor EU/EØS uten tilstrekkelig beskyttelsesnivå.
+Dine data behandles primært innenfor EU/EØS (Supabase EU-region). Push-varsler leveres via Firebase Cloud Messaging (Google) — Google er underlagt EUs standardkontraktsklausuler (SCC) og EU-US Data Privacy Framework. Kartdata fra OpenStreetMap er offentlig tilgjengelig globalt. Tilbakemeldinger kan bli videresendt til Discord (USA) — Discord er underlagt EUs standardkontraktsklausuler (SCC). Ingen andre persondata overføres til land utenfor EU/EØS uten tilstrekkelig beskyttelsesnivå.
 
 ## 9. Endringer i personvernerklæringen
 
